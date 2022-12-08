@@ -1,0 +1,150 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+header img{
+	height: 7vh;
+}
+body{
+	background-color: rgb(240, 240, 240);
+}
+main{
+	background-color: white;
+	position: absolute;
+	left: 20%;
+	width: 65vw;
+	box-shadow: 1px 0px 2px black;
+}
+.estilo{
+	font-family: Arial, Helvetica,sans-serif;
+}
+.tit{
+	font-size: 0.8em;
+}
+img{
+	width: 11vw;
+}
+ul{
+	padding-left: 15%;
+}
+
+li{
+	line-height: 24px;
+	text-align: justify;
+	padding-right: 10%;
+	font-size: 1em;
+}
+.texto p{
+	line-height: 24px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-indent: 3em;
+	font-size: 1em;
+
+}
+.texto2 p{
+	line-height: 24px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1em;
+
+}
+
+.box{
+	display: flex;
+	position: relative;
+}
+.box p{
+	padding: 0%;
+	margin: 0%;
+	text-indent: 0em;
+	font-size: 0.8em;
+}
+.box0{
+	width: 100vw;
+}
+.box0 p{
+	text-indent: 3em;
+	padding-left: 5%;	
+}
+.box1{
+	width: 50vw;
+}
+.box1 p{
+	text-indent: 3em;
+	padding-left: 10%;
+}
+.box2{
+	width: 50vw;
+}/*32.5*/
+.box3{
+	width: 33.33vw;
+}/*21.67*/
+.box3 p{
+	text-indent: 3em;
+	padding-left: 15%;
+}
+.box4{
+	width: 33.33vw;
+}
+.box5{
+	width: 33.33vw;
+}
+.boxassin{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.boxassin p{
+	text-align: center;
+}
+.boxass0{
+	left: 15%;
+	width: 15vw;	
+}
+.boxass1{
+	width: 15vw;	
+}
+.boxass2{
+	width: 15vw;
+}
+.boxassinresp{
+	display: flex;
+	padding-left: 10%;
+	padding-right: 50%;
+}
+.boxassinhr{
+	width: 30vw;
+}
+
+.data p{
+	text-align: right;
+}
+.boxb{
+	border-width: small;
+  	border-style: solid;
+  	border-color: black;
+}
+.texto1 p{
+	line-height: 24px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 0.95em;
+
+}
+.assin_box{
+	position: relative;
+	left: 30%;
+	width: 30vw;
+	background-color: white;
+}
+@media print { 
+	#noprint { display:none; } 
+	body { background: #fff; }
+}
+
